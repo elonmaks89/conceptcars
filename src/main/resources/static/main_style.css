@@ -1,0 +1,534 @@
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 1280px) { div.contentblock {width: 1200px;} }
+@media screen and (max-width: 1140px) { div.contentblock {width: 1024px;} }
+@media screen and (max-width: 992px) { div. contentblock {width: 970px;} }
+
+body {
+    font: 0.8em Arial, Helvetica, sans-serif; 
+    background: white;
+    color: black; 
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+   }
+   
+   a { color: #008BCE; }
+   #container {
+    width: auto; 
+    margin: 0 auto; 
+    background: white;
+    padding-top: 45px;
+    background-image: url("/static/img/ornaback.jpg");
+   }
+
+  #header {
+   background-color: white;  
+   position: fixed;  
+   top: 0;
+   height: 27px;
+   width: 100%;
+   font-size: 2.2em;
+   text-align: center;
+   padding: 5px;
+   background: white;
+   color: rgba(50,50,50,0.5);
+   margin-top: auto;
+   box-shadow: 0 0 10px black;
+   z-index: 100;
+   background-image: url("/static/img/ornaback.jpg");
+  }
+
+#headerlogo {
+    text-decoration: none;
+    font-family: Magneto;
+}
+
+#headerlogo:hover {
+    color: green;
+    text-shadow: 0px 0px 0px black, 0 0 0.5em green;
+}
+
+#headerlogo:active {
+    color: green;
+    text-shadow: 0px 0px 0px black, 0 0 0.5em green;
+}
+
+  #searchbut {
+    margin-right: 0px;
+    float: left;
+    margin-top: -2px;
+    padding-top: 0px;
+    height: 15px;
+    width: auto;
+    padding: 5px;
+    font-size: 0px;
+  }
+
+
+  #linkbutt {
+    background: linear-gradient(-42deg, white 100%, silver 165%);
+    padding: 5px;
+    width: 150px;
+    border-radius: 5px;
+    border: 1px solid #D3D3D3;
+    font-family: Verdana, Helvetica, Sans-Serif;
+    color: grey;
+    box-shadow: inset 0 0 0px black;
+    text-decoration: none;
+    margin: 0 auto;
+    font-weight: bold;
+  }
+
+  #linkbutt:active {
+    background: linear-gradient(-42deg, white 100%, silver 165%);
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    color: grey;
+    font-family: Verdana, Helvetica, Sans-Serif;
+    box-shadow: inset 0 0 10px black;
+    font-weight: bold;
+  }
+
+  input {
+    margin: 0px;
+    margin-top: 5px;
+    padding: 5px;
+    font-style: italic;
+    border: 1px solid white;
+    box-shadow: inset 0 0 5px black;
+    background: white;
+  }
+
+  #s1 button {
+    border: 0px solid white;
+    margin-left: -194px;
+    margin-right: 210px;
+    background-color: #EEE8AA;
+    padding: 0px;
+    color: grey;
+    position: relative;
+    width: 10px;
+    height: 10px;
+  }
+
+
+
+  #headerbutton {
+    display: inline-block;
+    float: right;
+    margin-right: 0px;
+    margin-top: -46px;
+    width: 420px;
+  }
+
+  #headerlink1 {
+    margin-right: 10px;
+    padding: 5px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    background-color: #54B948;
+    border: 1px solid white;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+  }
+
+  #headerlink1:hover {
+    margin-right: 10px;
+    padding: 5px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    background-color: LightGreen;
+    border: 1px solid #00FF7F;
+    color: black;
+    font-size: 12px;
+  }
+
+
+  #headerlink1:active {
+    margin-right: 10px;
+    padding: 5px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    background-color: #00FF7F;
+    border: 1px solid #00FF7F;
+    color: black;
+    font-size: 12px;
+  }
+
+  #headerlink2 {
+    margin-right: -3px;
+    padding: 5px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    background-color: white;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+  }
+
+  #headerlink2:hover {
+      margin-right: -3px;
+      padding: 5px;
+      padding-top: 7px;
+      padding-bottom: 5px;
+      background-color: grey;
+      border: 1px solid black;
+      text-decoration: none;
+      color: black;
+      font-size: 12px;
+  }
+
+  #headerlink2:active {
+    margin-right: -3px;
+    padding: 5px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    background-color: lightgreen;
+    border: 1px solid black;
+    color: black;
+    font-size: 12px;
+
+  }
+
+  #brandinp {
+      border: 10px solid lightgreen;
+      border-style: none groove;
+      border-radius: 20px;
+      padding: 15px;
+  }
+
+  #cmodelinp {
+      border: 10px solid lightgreen;
+      border-style: none groove;
+      border-radius: 20px;
+      padding: 15px;
+  }
+
+  #priceinp {
+      border: 10px solid lightgreen;
+      border-style: none groove;
+      border-radius: 20px;
+      padding: 15px;
+  }
+
+  #choosebutt {
+      box-shadow: none;
+      background: lightgreen;
+  }
+
+  #choosebutt2 {
+      box-shadow: none;
+      border: 1px solid black;
+      background: lightgreen;
+      padding: 10px;
+  }
+
+  #choosebutt2:hover {
+      box-shadow: none;
+      border: 1px solid black;
+      background: grey;
+      padding: 10px;
+  }
+
+  #choosebutt2:active {
+      box-shadow: none;
+      border: 1px solid black;
+      background: green;
+      padding: 10px;
+  }
+
+
+  #butt_block {
+    float: left;
+    width: 100px;
+    display: inline-block;
+  }
+
+
+  #butt_block input {
+      background-color: white;
+      border-radius: 0px;
+      box-shadow: none;
+      width: 85px;
+      height: 28px;
+      font-size: 12px;
+      font-style: normal;
+      font-family: Candara;
+      border: 1px solid black;
+  }
+
+  #butt_block input:hover {
+      background-color: grey;
+      border-radius: 0px;
+      box-shadow: none;
+      width: 85px;
+      height: 28px;
+      font-size: 12px;
+      font-style: normal;
+      font-family: Candara;
+      border: 1px solid black;
+  }
+
+  #butt_block input:active {
+    background-color: lightgreen;
+    border-radius: 0px;
+    box-shadow: none;
+    width: 85px;
+    height: 28px;
+    font-size: 12px;
+    font-style: normal;
+    font-family: Candara;
+    border: 1px solid black;
+}
+
+  .UniqueFullWidth .input-group-text {
+      width: 0px;
+      border-right: none;
+      background-color: #ffffff;
+}
+  .UniqueFullWidth [class^="fa-"], [class*=" fa-"] {
+
+      width: 70px;
+      color: black;
+      font-size: 0px;
+      text-align: left;
+      margin-top: 5px;
+      height: 26px;
+      background: #54B948;
+      border: 1px solid blue;
+
+}
+
+.UniqueFullWidth [class^="fa-"]:hover, [class*=" fa-"]:hover {
+
+    width: 70px;
+    color: blue;
+    font-size: 28px;
+    text-align: left;
+    margin-top: 5px;
+    height: 26px;
+    background: #00FF7F;
+    border: 1px solid black;
+}
+
+  .UniqueFullWidth .LoginInput {
+      border-left: none;
+}
+
+  .search .fa-search {
+    position: relative;
+    top: 1px;
+    left: 87%;
+    font-size: 15px;
+  }
+
+
+
+
+   /* Navigation Bar*/
+
+   #nav {
+    margin-right: 10px;
+    margin-top: 0px;
+    width: 500px;
+    margin-bottom: 1px;
+
+   }
+
+   #nav ul {
+    display: inline-block;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    box-shadow: 0 0 10px #00FF7F;
+
+   }
+
+   #nav ul li {
+    display: block;
+    background-color: rgba(26, 159, 41, 0.3);
+    float: left;
+    width: auto;
+    word-wrap: break-word;
+}
+
+
+   #nav ul li a {
+    display: block;
+    border-top: 1px solid #006400;
+    border-bottom: 3px solid #006400;
+    border-left: 1px solid #006400;
+    border-right: 1px solid #006400;
+    width: auto;
+    word-wrap: break-word;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    color: black;
+   }
+
+   #nav ul li: {
+    background: white; 
+    position: relative;
+}
+
+   #nav ul li ul {
+    display: none;
+    position: absolute;
+   }
+
+   #nav ul li:hover ul {
+    display: block;
+    width: 320px;
+    margin: 0;
+    word-wrap: break-word;
+    background-color: white;
+   }
+
+   #nav ul li ul li {
+    display: block;
+    width: 100%;
+    text-align: left;
+    word-wrap: break-word;
+   }
+
+   #nav ul li ul li:hover {
+    background-color: white;
+   }
+
+
+
+   #section, #aside {
+    float: left; width: 110px; padding: 5px;
+    word-wrap: break-word;
+    box-shadow: inset 0 0 5px grey, 0 0 10px black;
+    padding-bottom: 1200px;
+   }
+
+   #content {
+    background: white;
+    margin: 0 130px;
+    padding: 10px;
+    word-wrap: break-word;
+    height: auto;
+    box-shadow: inset 0 0 5px grey, 0 0 10px black;
+    margin-bottom: 200px;
+    padding-bottom: 1200px;
+    background-image: url("/static/img/ornaback.jpg");
+   }
+
+
+
+   .center_blocks {
+    display: inline-block;
+    color: red;
+    padding: 0px;
+    margin: 5px;
+    border: 5px solid black;
+    display: inline-block;
+   }
+
+   .center_blocks_ins {
+       display: inline-block;
+   }
+
+   #imgstyle img {
+       height: 200px;
+       width: 330px;
+       border-radius: 5px;
+       border: 2px outset lightgreen;
+   }
+
+   #imgstyle2 {
+       display: inline-block;
+   }
+
+   #aside {
+    float: right;
+    word-wrap: break-word;
+    padding-bottom: 1200px;
+   }
+
+   h2 { margin: 0 0 1em; word-wrap: break-word; }
+
+   .carposts {
+       float: left;
+       margin: 60px 0 30px;
+       width: 100%;
+       color: black;
+   }
+
+#footer {
+    clear: both;
+    padding: 5px;
+    background: white;
+    height: 190px;
+    margin-top: -200px;
+    box-shadow: 0 0 25px black;
+    background-image: url("/static/img/ornaback.jpg");
+}
+
+
+#dark {
+    background: lightgreen;
+    height: 45px;
+    width: 100%;
+}
+.foot-inner {
+    margin: 0 auto;
+    width: 962px;
+}
+
+.fzagl td {
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 10px;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.fmain td {
+    color: #b5b7bc;
+    font-size: 10px;
+    padding: 10px 10px 0 0;
+    vertical-align: top;
+}
+.fmain li {
+    margin-bottom: 8px;
+    padding-left: 13px;
+}
+.fmain a {
+    color: black;
+}
+
+.size11 {
+    font-size: 10px !important;
+    color: darkgreen;
+}
+
+.ital {
+    font-style: italic;
+}
+
+.slip10 {
+    padding-left: 10px;
+}
+
+.ftestim span {
+    line-height: 24px;
+}
+.ftestim a {
+    color: #3196e6;
+    font-size: 11px;
+    text-decoration: underline;
+}
